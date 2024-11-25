@@ -1,9 +1,11 @@
 # jpdfdiff
 
-Silly and simple PDF diff side-by-side viewer which offers
+Silly and simple PDF side-by-side viewer which offers:
 
-- Simple Pagination
-- Page content is scaled down/up to render it into the bounding box
+- simple Pagination
+- page content is scaled down/up to render it into the bounding box
+
+It currently cannot highlight any differences. It literally just shows both files side by side.
 
 Uses [Apache PDFBox](https://github.com/apache/pdfbox) for rendering PDF files.
 
